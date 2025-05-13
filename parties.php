@@ -8,9 +8,9 @@ $body = [
     "CommercialName"    => "isurucomp",
     "PartyType"         => "Customer",
     "CompanyName"       => "Isuru Computers Pvt Ltd",
-    "Contact"           => "fff",
-    "ContactFirstName"  => "fff",
-    "ContactLastName"   => "fff"
+    "Contact"           => "isuru",
+    "ContactFirstName"  => "isuru",
+    "ContactLastName"   => "ratnayake"
 ];
 
 $response = $client->request('POST', 'https://api.billit.be/v1/parties', [
@@ -18,7 +18,7 @@ $response = $client->request('POST', 'https://api.billit.be/v1/parties', [
     'headers' => [
         'Accept'        => 'application/json',
         'Content-Type'  => 'application/json',
-        'apikey'        => '2809bdb3-a58f-4cd5-9ba8-84cce4d1e476',
+        'apikey'        => 'sample-api-key',
     ],
 ]);
 
